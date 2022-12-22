@@ -245,7 +245,14 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         protect_content=True if pre == 'filep' else False,
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton('♻️ 𝐉𝐨𝐢𝐧 𝙂𝙧𝙤𝙪𝙥 ', url="https://t.me/+ZONAmseBbjZoPdoq")
+                ]
+            ]
         )
+    )
                     
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))

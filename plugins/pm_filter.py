@@ -732,7 +732,7 @@ async def advantage_spell_chok(msg):
         "", msg.text, flags=re.IGNORECASE)  # plis contribute some common words
     query = query.strip() + " movie"
     g_s = await get_poster(query)
-    g_s += await get_poster(msg.text)
+    g_s = await get_poster(msg.text)
     gs_parsed = []
     if not g_s:
         k = await msg.reply("I couldn't find any movie in that name.")

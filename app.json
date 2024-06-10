@@ -20,22 +20,27 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
+            "value": "ghfhhfhvcccc",
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "ghfhhfhvcccc",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "ghfhhfhvcccc",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "value": "ghfhhfhvcccc",
             "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "value": "ghfhhfhvcccc",
             "required": true
         },
         "PICS": {
@@ -44,6 +49,7 @@
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "value": "ghfhhfhvcccc",
             "required": true
         },
         "AUTH_USERS": {
@@ -52,14 +58,17 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "value": "ghfhhfhvcccc",
             "required": false
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "value": "ghfhhfhvcccc",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "value": "ghfhhfhvcccc",
             "required": false
         },
         "COLLECTION_NAME": {
